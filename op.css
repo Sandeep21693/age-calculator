@@ -1,0 +1,40 @@
+.bg-container{
+    background-color: brown;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.age-head{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+.enter{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+button{
+    background-color: rgb(19, 230, 19);
+    color: #fff;
+    padding: 7px;
+    border-width: 1px;
+    border-radius: 4px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 12px;
+}
